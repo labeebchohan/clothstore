@@ -1,0 +1,168 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    padding: 20px 0;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav li {
+    margin: 0 15px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav a.active {
+    color: #ff5722; /* Highlight active link */
+}
+
+.page-heading {
+    background: url('assets/images/about-bg.jpg') no-repeat center center/cover;
+    padding: 100px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.about-us {
+    padding: 60px 0;
+}
+
+.left-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.right-content {
+    padding: 20px;
+}
+
+.quote {
+    font-style: italic;
+    margin: 20px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+/* Our Team Section */
+.our-team {
+    padding: 60px 0;
+}
+
+.team-item {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team-item .thumb img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.down-content h4 {
+    margin: 15px 0 5px;
+}
+
+.down-content span {
+    display: block;
+    color: #777;
+}
+
+/* Services Section */
+.our-services {
+    padding: 60px 0;
+}
+
+.service-item {
+    text-align: center;
+}
+
+.service-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Subscribe Section */
+.subscribe {
+    background: #f7f7f7;
+    padding: 60px 0;
+}
+
+.subscribe input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.main-dark-button {
+    background: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-dark-button:hover {
+    background: #e64a19;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.under-footer {
+    text-align: center;
+}
+
+.under-footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.under-footer ul li {
+    margin: 0 10px;
+}
+
+.under-footer ul li a {
+    color: #fff;
+}

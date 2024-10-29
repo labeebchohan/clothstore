@@ -1,0 +1,141 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+.header-area {
+    background-color: #343a40;
+    padding: 20px 0;
+}
+
+.header-area .logo img {
+    width: 150px;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav li {
+    margin: 0 15px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.nav a.active,
+.nav a:hover {
+    background-color: #495057;
+    border-radius: 5px;
+}
+
+/* Page Heading */
+.page-heading {
+    background-color: #007bff;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Contact Us Section */
+.contact-us {
+    padding: 50px 0;
+}
+
+.contact-us #map {
+    height: 400px;
+    margin-bottom: 30px;
+}
+
+.form-fieldset {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button.main-dark-button {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.main-dark-button:hover {
+    background-color: #495057;
+}
+
+/* Subscribe Section */
+.subscribe {
+    background-color: #e9ecef;
+    padding: 50px 0;
+}
+
+.subscribe .section-heading {
+    margin-bottom: 30px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer .first-item {
+    margin-bottom: 30px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.under-footer {
+    text-align: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
